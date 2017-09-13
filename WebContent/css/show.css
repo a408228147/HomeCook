@@ -1,0 +1,208 @@
+/* CSS Document */
+body{
+    background-color:#E1E0E0;
+}
+#head1{
+    height:28px;
+    width: 100%;
+    background-color:#2E2E2E;
+    /*position: fixed;*/
+}
+.surplusl{
+    height:28px;
+    width:10%;
+    float: left;
+}
+#main{
+    height:28px;
+    width:20%;
+    float: left;
+}
+#my-list{
+    height:28px;
+    width:45%;
+    float: left;
+}
+#my-data{
+    height:28px;
+    width:15%;
+    float:left;
+}
+.surplusr{
+    height:28px;
+    width:10%;
+    float: right;
+}
+.main-table{
+    height:100%;
+    width:100%;
+    font-size:13px;
+    font-family:'幼圆';
+    text-align:left;
+    color:#E7E7E7;
+    vertical-align: middle;
+}
+#main-table{height:100%;
+    width:100%;
+    font-size:13px;
+    font-family:'幼圆';
+    text-align:right;
+    color:#E7E7E7;
+    vertical-align: middle;}
+th
+{
+    font-size:18px;
+    font-family:'幼圆';
+}
+.menu-table-a
+{
+    font-size:15px;
+    font-family:'幼圆';
+    text-decoration: none;
+    color: black;
+}
+.menu-table-a:hover
+{
+    color: blue;
+}
+.menu-table-a:visited
+{
+    color: black;
+}
+#img-{width:10%;float:left;}
+#font-{width:90%;float:right;}
+#address{height:15px;width:13px;}
+.a-title{
+    font-size:13px;
+    font-family:'幼圆';
+    text-decoration: none;
+    color:#E7E7E7;
+}
+a:hover{
+    font-size:13px;
+    font-family:'幼圆';
+    text-decoration: none;
+    color:white;
+}
+#head2{
+    height:80px;
+    background-color:white;
+    width: 100%;
+}
+#head2-body3
+{
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+#head2-body3-table
+{
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    text-align: left;
+    font-family: '幼圆';
+    font-size: 20px;
+}
+#head2-body1{
+    height: 100%;
+    width: 10%;
+    float: left;
+    text-align: center;
+}
+#logo{
+    height:80px;
+    width:80px;
+    margin-left:10%;
+}
+#head2-body2{
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+#head2-body2-table{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+#ta-td1{
+    height:30px;
+    width:50%;
+    border-radius:10px;
+}
+#ta-td2{
+    height:30px;
+    width:15%;
+    border: none;
+    border-radius:10px;
+    font-size:15px;
+    font-family:'幼圆';
+    color:#303030;
+    background-color:yellow;
+}
+#body-menu1{
+    width:80%;
+    margin-left: 10%;
+    height:800px;
+    margin-top: 5px;
+    background-color:yellow;
+}
+#footer{
+    height: 130px;
+    width:100%;
+    margin-top:10px;
+    background-color:white;
+    font-family:'幼圆';
+    font-size: 15px;
+    color:#5F5E5E;
+}
+#r1{
+    height:130px;
+    width:18%;
+    float: left;
+}
+#r1-table{
+    margin-top:25px;
+    margin-left:50%;
+}
+#r2{
+    height:130px;
+    width:35%;
+    float: left;
+}
+#r2-table{
+    margin-top:25px;
+    text-align: center;
+    margin-left:20%;
+}
+#r3{
+    height: 130px;
+    width:15%;
+    float: left;
+}
+#r3-table{
+    margin-top:25px;
+    text-align:center;
+}
+#r4{
+    height: 130px;
+    width:15%;
+    float:left;
+    text-align: center;
+}
+#r4-img{
+    height:90px;
+    width:90px;
+    background-color:cadetblue;
+    margin-top:22px;
+}
+#r5{
+    height: 130px;
+    width:17%;
+    float: right;
+}
+#r5-table{
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}

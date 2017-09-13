@@ -1,0 +1,58 @@
+/* CSS Document */
+#my-cooker
+{
+	height: 40px;
+	background-color:#663300;
+	width: 100%;
+}
+#my-cooker-table
+{
+	height: 100%;
+	width:80%;
+	margin-left: 10%;
+	font-family: '幼圆';
+	color: aliceblue;
+}
+#cancel
+{
+	text-decoration: none;
+	color: white;
+}
+#ordered
+{ 
+	width:90%;
+	margin-top: 20px;
+	margin-left:5%;
+}
+#ordered-table
+{
+	width: 100%;
+	border-collapse: collapse;
+	font-family: '幼圆';
+}
+th
+{
+	border: solid 1px  #ECECEC;
+	background-color:#ECECEC;
+}
+.td-baby
+{
+	border: solid 1px #ECECEC;
+	height:auto;
+	width: 40%;
+	text-align: center;
+}
+.td-general
+{
+	border: solid 1px #ECECEC;
+	height:auto;
+	width: 15%;
+	text-align: center;
+}
+#evaluate
+{
+	text-decoration: none;
+}
+#evaluate:link{color: black}
+#evaluate:hover{color:blue}
+#evaluate:visited{color: black}

@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>min-index</title>
+<style>
+	html
+	{
+		height:100%;
+		width: 100%;
+	}
+	body
+	{
+		height:100%;
+		width: 100%;
+	}
+	#div-mo
+	{
+		position: fixed;
+		right: 0px;
+		bottom: 0px;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		z-index:50;
+		background-color:#000000;
+		opacity:0.4;
+	}
+	#div-body
+	{
+		height: 100%;
+		width: 100%;
+		position: fixed;
+		z-index: 99;
+	}
+	h1
+	{
+		color:white;
+		margin-top: 10%;
+		text-align: center;
+		font-family:"幼圆";
+	}
+	#a-enter
+	{
+		position: relative;
+		top: 150px;
+		left:75%;
+		color: white;
+		text-decoration: none;
+		font-size:18px;
+		font-family:"幼圆";
+	}
+	video#v1 {  
+		position: fixed; 
+		right: 0; 
+		bottom: 0; 
+		min-width: 100%; 
+		min-height: 100%; 
+		width: auto; 
+		height: auto; 
+		z-index: -100; 
+		background: url(polina.jpg) no-repeat; 
+		background-size: cover; 
+	}
+</style>
+</head>
+
+<body>
+		<div id="div-mo"></div>
+		<div id="div-body">
+			<img src="img/HomeCook.png" height="100px" width="100px" style="opacity:0.9"><br/><span style="color: white;font-family:'幼圆'">您的私人家厨</span>
+			<h1>有你，家的味道。</h1>
+			<a id="a-enter" href="index.jsp">点击进入</a>
+		</div>
+		<div id="div-video">
+			<video autoplay="autoplay" loop="loop" id="v1">
+				<source src="video/hongshaoFish.mp4" type="video/mp4">
+				<!--一旦视频就绪马上开始播放：autoplay；去掉声音：muted；循环播放：loop；--> 
+			</video>
+		</div>
+</body>
+</html>
